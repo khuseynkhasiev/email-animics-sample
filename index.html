@@ -1,217 +1,424 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office" lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Animics</title>
-    <style>
-        body {
-            margin: 0
-        }
-        .container{
-            height: 792px;
-            max-width: 612px;
-            width: 100%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .content{
-            background: url('https://i.ibb.co/ZfrkPSC/background.png') no-repeat;
-            background-size: auto;
-            padding: 55px 56px; box-sizing: border-box;
-        }
-        header{
-            display: flex;
-            column-gap: 30px;
-            justify-content: space-between;
-        }
-        .header__logo{
-            background-image: url('https://i.ibb.co/VTrLzdk/logo-animics.png');
-            min-width: 108px;
-            height: 142px;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .header__text-block{
-            margin: auto;
-            width: 100%;
-        }
-        .header__title{
-            color: #000;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            letter-spacing: 43.36px;
-            margin: 0;
-            text-align: left;
-            text-transform: uppercase;
-        }
-        .header__title_bold{
-            color: #000;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 100px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: 10.45px;
-            text-transform: uppercase;
-            width: 100%;
-            text-align: center;
-        }
-        .main__subtitle{
-            color: #000;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-        .main__subtitle_link{
-            color: #A70111;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            text-decoration-line: underline;
-        }
-        .main__content{
-            background: rgba(255, 255, 255, 0.60);
-            max-width: 500px;
-            width: 100%;
-            height: 470px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            row-gap: 10px;
-            box-sizing: border-box;
-            backdrop-filter: blur(7.5px);
-        }
-        .main__text{
-            color: #000;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 500;
-            margin: 0;
-            line-height: normal;
-        }
-        .main__text-link{
-            color: #A50212;
-            font-family: Montserrat, Inter, sans-serif;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-decoration-line: underline;
-        }
-        @media screen and (max-width: 612px){
-            .header__logo{
-                min-width: 108px;
-                height: 142px;
-            }
-            .header__title{
-                color: #000;
-                font-family: Montserrat, Inter, sans-serif;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                letter-spacing: 37.36px;
-                margin: 0;
-                text-align: left;
-                text-transform: uppercase;
-            }
-            .header__title_bold{
-                color: #000;
-                font-family: Montserrat, Inter, sans-serif;
-                font-size: 80px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                letter-spacing: 10.45px;
-                text-transform: uppercase;
-            }
-            .header__logo{
-                min-width: 95px;
-                height: 142px;
-            }
-            .main__subtitle{
-                font-size: 14px;
-                text-align: center;
-            }
-            .main__content{
-                height: 380px;
-            }
-            .content{
-                padding: 40px;
-            }
-            @media screen and (max-width: 500px){
-                .content{
-                    padding: 10px;
-                }
-                header{
-                    flex-direction: column;
-                    align-items: center;
-                }
-                .header__logo{
-                    width: 60px;
-                }
-                .header__title{
-                    text-align: center;
-                    letter-spacing: 30px;
-                }
-                .main__text{
-                    font-size: 10px;
-                }
-                .header__text-block{
-                    display: flex;
-                    flex-direction: column;
-                }
-            }
-        }
-    </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" /> -->
+  <title>Animics Toba</title>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:wght@300;500;700&display=swap');
+
+    table {
+      border-spacing: 0;
+      mso-cellspacing: 0;
+      mso-padding-alt: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    #outlook a {
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #A70111;
+      font-size: 12px;
+    }
+    @media only screen and (max-width: 550px) {
+      /* Уменьшаем размер шрифта для заголовков */
+      .header__title {
+        font-size: 25px !important;
+      }
+      .header__subtitle{
+        font-size: 90px !important;
+      }
+    }
+    @media only screen and (max-width: 520px) {
+      .header__rightBlock{
+        padding-top: 10px;
+      }
+      .main__subtitleBlock{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+      }
+      .main__content {
+        /*
+        height: 426px !important;
+        */
+      }
+      .header__title {
+        letter-spacing: 30px !important;
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      .header__subtitle{
+        font-size: 85px !important;
+      }
+      .header__title {
+        font-size: 16px !important;
+      }
+      .main__content {
+        max-width: 400px !important;
+      }
+      .main__subtitle{
+        max-width: 400px !important;
+      }
+      .header__rightBlock{
+        max-width: 400px !important;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      .main__content {
+        max-width: 390px !important;
+      }
+      .main__subtitle{
+        max-width: 390px !important;
+      }
+      .header__rightBlock{
+        max-width: 390px !important;
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      .header__subtitle {
+        font-size: 60px !important;
+      }
+      .main__content {
+        max-width: 360px !important;
+      }
+      .main__subtitle{
+        max-width: 360px !important;
+      }
+      .header__rightBlock{
+        max-width: 360px !important;
+      }
+    }
+    @media only screen and (max-width: 380px) {
+      .main__content {
+        max-width: 330px !important;
+      }
+      .main__subtitle{
+        max-width: 330px !important;
+      }
+      .header__rightBlock{
+        max-width: 330px !important;
+      }
+    }
+    @media only screen and (max-width: 335px) {
+      .main__content {
+        max-width: 310px !important;
+      }
+      .main__subtitle{
+        max-width: 310px !important;
+      }
+      .header__rightBlock{
+        max-width: 310px !important;
+      }
+    }
+
+
+
+    @media screen and (max-width: 599.98px) {
+    }
+
+    @media screen and (max-width: 399.98px) {
+      .mobile-padding {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+      }
+
+      .mobile-col-padding {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      }
+
+      .two-columns .column {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .two-columns .column img {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .three-columns .column {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .three-columns .column img {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+
+    /* Custom Dark Mode Colors */
+    /* :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      table,
+      td {
+        background-color: #06080B !important;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        color: #ffffff !important;
+      }
+    } */
+  </style>
+
+  <!--[if (gte mso 9)|(IE)]>
+  <style type="text/css">
+    table {border-collapse: collapse !important;}
+  </style>
+  <![endif]-->
+
+  <!--[if (gte mso 9)|(IE)]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
 </head>
-<body>
-<div class="container">
-    <div class="content">
-        <header>
-            <div class="header__logo"></div>
-            <div class="header__text-block">
-                <h1 class="header__title">СТУДИЯ</h1>
-                <span class="header__title_bold">ТОБА</span>
-            </div>
-<!--            <h1 class="header__title">СТУДИЯ
-                <span class="header__title_bold">ТОБА</span></h1>-->
-        </header>
-        <main>
-            <h2 class="main__subtitle">Подтверждение регистрации на сайте
-                <a class="main__subtitle_link" href="animics.ru" target="_blank">animics.ru</a></h2>
-            <div class="main__content">
-                <p class="main__text">
+
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+  body {background-color: #dde0e1!important;}
+  body, table, td, p, a {font-family: Montserrat, Inter, sans-serif!important;}
+
+  @media screen and (max-width: 500px) {
+  .header__title{
+    font-size: 10px!important;
+  }
+</style>
+<![endif]-->
+
+  <center style="width: 100%;table-layout:fixed;background-color: #dde0e1;padding-top: 40px;padding-bottom: 40px;">
+    <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+
+      <!-- Preheader (remove comment) -->
+      <div
+              style="font-size: 0;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+        Стартовое описание
+      </div>
+      <!-- End Preheader (remove comment) -->
+
+      <!--[if (gte mso 9)|(IE)]>
+      <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+             style="color:#000; ">
+        <tr>
+          <td>
+      <![endif]-->
+
+      <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+             style="background-image: url('https://i.ibb.co/ZfrkPSC/background.png');  padding-bottom: 30px; color:#000;font-family: Montserrat, Inter, sans-serif;background-color: #fafdfe;Margin:0;width: 100%;max-width: 600px;"
+      >
+        <!--header-->
+        <tr>
+          <td align="center" style="font-size: 0; padding-top: 10px; padding-left: 10px; padding-right: 10px; box-sizing: border-box" class="two-columns mobile-padding">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+              <tr>
+                <td>
+            <![endif]-->
+            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="display: inline-block; max-width: 108px; width: 100%; vertical-align: top;" class="header__logo">
+              <tr>
+                <td class="mobile-col-padding">
+                  <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                    <tr>
+                      <td>
+                        <img src="https://i.ibb.co/VTrLzdk/logo-animics.png" alt="logo" border="0" width="108" style="max-width: 108px">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!-- ... (ваш существующий HTML-код) ... -->
+
+            <table class="header__rightBlock" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="display: inline-block; max-width: 392px; vertical-align: middle; padding-left: 10px; padding-right: 10px; box-sizing: border-box">
+              <tr>
+                <td class="mobile-col-padding" align="center">
+                  <div style="width: 100%; text-align: center;">
+                    <h1 class="header__title" style="color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 43.36px;
+          Margin: 0;
+          text-align: center;
+          text-transform: uppercase;">
+                      СТУДИЯ
+                    </h1>
+                    <p class="header__subtitle" style="color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 110px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          Margin: 0;
+          letter-spacing: 10.45px;
+          text-align: center;
+          text-transform: uppercase;">
+                      ТОБА
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+            <!-- ... (ваш существующий HTML-код) ... -->
+
+          </td>
+        </tr>
+        <!--header-end-->
+
+        <!--subtitle-block-->
+        <tr>
+          <td>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+              <tr>
+                <td class="main__subtitleBlock" align="center" style="padding-top: 15px; padding-bottom: 15px;">
+                  <p class="main__subtitle"
+                     style="
+                     Margin: 0;
+                     font-family: Montserrat, sans-serif;
+                     font-size: 16px;
+                     font-style: normal;
+                     font-weight: 700;
+                     color: #000;
+                     line-height: normal;"
+                  >Подтверждение регистрации на сайте
+                    <a
+                      style="Margin: 0;
+                      color: #A70111;
+                      font-family: Montserrat, sans-serif;
+                      font-size: 16px;
+                      font-style: normal;
+                      font-weight: 700;
+                      line-height: normal;
+                      text-decoration-line: underline;"
+                      class="main__subtitle_link" href="animics.ru" target="_blank">animics.ru</a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--subtitle-block-end-->
+
+        <!--text-block-->
+        <tr>
+          <td>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+              <tr>
+                <td class="main__content" style="padding-top: 15px; padding-right: 10px; padding-bottom:30px; padding-left: 10px;
+                            vertical-align: top;
+                           background-color: rgba(255, 255, 255, 0.60);
+                           max-width: 480px;
+                           width: 100%;
+                           box-sizing: border-box;
+                           backdrop-filter: blur(7.5px);">
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Здравствуйте,</p>
-                <p class="main__text">
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Спасибо за регистрацию на сайте
                     <a class="main__text-link" href="animics.ru" target="_blank">animics.ru</a>! Мы рады приветствовать вас в нашем сообществе.</p>
-                <p class="main__text">
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Для завершения процесса регистрации и активации вашей учетной записи, пожалуйста, перейдите по следующей ссылке:
-                </p>
-                <a href="#" class="main__text-link">[Ссылка для подтверждения регистрации]</a>
-                <p class="main__text">
+                  </p>
+                  <a href="#" style="margin: 10px 0 0;">[Ссылка для подтверждения регистрации]</a>
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Если вы не регистрировались на нашем сайте и получили это письмо по ошибке, пожалуйста, проигнорируйте его. Ваша учетная запись не будет активирована без вашего подтверждения.
-                </p>
-                <p class="main__text">
+                  </p>
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Мы очень ценим ваше участие и ждем вас на нашем сайте и в приложении, где вы сможете наслаждаться всеми преимуществами нашей платформы.
-                </p>
-                <p class="main__text">
+                  </p>
+                  <p style="color: #000;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    padding-top: 15px;
+                    Margin: 0;
+                    line-height: normal;">
                     Если у вас возникли вопросы или требуется помощь, не стесняйтесь обращаться к нашей службе поддержки по адресу
                     <a href="animics.ru" target="_blank" class="main__text-link">support@animics.ru</a>.
-                </p>
-            </div>
-        </main>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--text-block-end-->
+
+      </table>
+
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
 
     </div>
-</div>
+  </center>
+
 </body>
+
 </html>
