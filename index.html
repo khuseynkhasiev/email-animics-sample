@@ -59,11 +59,18 @@
       }
     }
     @media only screen and (max-width: 500px) {
+      .mobile-padding {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        padding-top: 20px !important;
+        padding-bottom: 10px !important;
+      }
       .header__subtitle{
         font-size: 85px !important;
       }
       .header__title {
         font-size: 16px !important;
+        font-weight: bold !important;
       }
       .main__content {
         max-width: 400px !important;
@@ -76,6 +83,9 @@
       }
     }
     @media only screen and (max-width: 450px) {
+      .header__logo{
+        max-width: 90px !important;
+      }
       .main__content {
         max-width: 390px !important;
       }
@@ -92,6 +102,10 @@
       }
       .main__content {
         max-width: 360px !important;
+        padding-bottom: 5px !important;
+        padding-top: 5px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
       }
       .main__subtitle{
         max-width: 360px !important;
@@ -132,6 +146,8 @@
       .mobile-padding {
         padding-right: 10px !important;
         padding-left: 10px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
       }
 
       .mobile-col-padding {
@@ -231,11 +247,11 @@
       <![endif]-->
 
       <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
-             style="background-image: url('https://i.ibb.co/ZfrkPSC/background.png');  padding-bottom: 30px; color:#000;font-family: Montserrat, Inter, sans-serif;background-color: #fafdfe;Margin:0;width: 100%;max-width: 600px;"
+             style="background-image: url('https://i.ibb.co/y4yDbrW/background-email-animics-toba.png');  padding-bottom: 30px; color:#000;font-family: Montserrat, Inter, sans-serif;background-color: #fafdfe;Margin:0;width: 100%;max-width: 600px;"
       >
         <!--header-->
         <tr>
-          <td align="center" style="font-size: 0; padding-top: 10px; padding-left: 10px; padding-right: 10px; box-sizing: border-box" class="two-columns mobile-padding">
+          <td align="center" style="font-size: 0; padding-top: 55px; padding-left: 10px; padding-right: 10px; padding-bottom: 15px; box-sizing: border-box" class="two-columns mobile-padding">
             <!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
               <tr>
@@ -247,7 +263,7 @@
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td>
-                        <img src="https://i.ibb.co/VTrLzdk/logo-animics.png" alt="logo" border="0" width="108" style="max-width: 108px">
+                        <img class="header__logo" src="https://i.ibb.co/VTrLzdk/logo-animics.png" alt="logo" border="0" width="108" style="max-width: 108px">
                       </td>
                     </tr>
                   </table>
@@ -294,40 +310,6 @@
           </td>
         </tr>
         <!--header-end-->
-
-        <!--subtitle-block-->
-        <tr>
-          <td>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-              <tr>
-                <td class="main__subtitleBlock" align="center" style="padding-top: 15px; padding-bottom: 15px;">
-                  <p class="main__subtitle"
-                     style="
-                     Margin: 0;
-                     font-family: Montserrat, sans-serif;
-                     font-size: 16px;
-                     font-style: normal;
-                     font-weight: 700;
-                     color: #000;
-                     line-height: normal;"
-                  >Подтверждение регистрации на сайте
-                    <a
-                      style="Margin: 0;
-                      color: #A70111;
-                      font-family: Montserrat, sans-serif;
-                      font-size: 16px;
-                      font-style: normal;
-                      font-weight: 700;
-                      line-height: normal;
-                      text-decoration-line: underline;"
-                      class="main__subtitle_link" href="animics.ru" target="_blank">animics.ru</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <!--subtitle-block-end-->
-
         <!--text-block-->
         <tr>
           <td>
@@ -335,30 +317,65 @@
               <tr>
                 <td class="main__content" style="padding-top: 15px; padding-right: 10px; padding-bottom:30px; padding-left: 10px;
                             vertical-align: top;
+                           /*
                            background-color: rgba(255, 255, 255, 0.60);
+                           */
+                           background-image: url('https://i.ibb.co/Fgb1FdY/background-Text-Block.png');
                            max-width: 480px;
                            width: 100%;
                            box-sizing: border-box;
                            backdrop-filter: blur(7.5px);">
+                  <p class="main__subtitle"
+                     style="
+                     Margin: 0;
+                     font-family: Montserrat, sans-serif;
+                     font-size: 12px;
+                     font-style: italic;
+                     font-weight: 700;
+                     color: #000;
+                     display: inline-block;
+                     line-height: normal;"
+                  >Подтверждение регистрации на сайте</p>
+                  <a
+                          style="Margin: 0;
+                          display: inline-block;
+                          color: #A70111;
+                          font-family: Montserrat, sans-serif;
+                          font-size: 12px;
+                          font-style: italic;
+                          font-weight: 700;
+                          line-height: normal;
+                          text-decoration-line: underline;"
+                          class="main__subtitle_link" href="animics.ru" target="_blank">animics.ru</a>
                   <p style="color: #000;
                     font-family: Montserrat, Inter, sans-serif;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 500;
                     padding-top: 15px;
+                    padding-bottom: 15px;
                     Margin: 0;
                     line-height: normal;">
                     Здравствуйте,</p>
                   <p style="color: #000;
                     font-family: Montserrat, Inter, sans-serif;
+                    display: inline;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 500;
-                    padding-top: 15px;
                     Margin: 0;
                     line-height: normal;">
-                    Спасибо за регистрацию на сайте
-                    <a class="main__text-link" href="animics.ru" target="_blank">animics.ru</a>! Мы рады приветствовать вас в нашем сообществе.</p>
+                    Спасибо за регистрацию на сайте </p>
+                  <a class="main__text-link" href="animics.ru" target="_blank" style="display: inline;">animics.ru</a>
+                  <p style="color: #000;
+                  display: inline;
+                    font-family: Montserrat, Inter, sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+
+                    Margin: 0;
+                    line-height: normal;">! Мы рады приветствовать вас в нашем сообществе.</p>
                   <p style="color: #000;
                     font-family: Montserrat, Inter, sans-serif;
                     font-size: 12px;
@@ -369,7 +386,7 @@
                     line-height: normal;">
                     Для завершения процесса регистрации и активации вашей учетной записи, пожалуйста, перейдите по следующей ссылке:
                   </p>
-                  <a href="#" style="margin: 10px 0 0;">[Ссылка для подтверждения регистрации]</a>
+                  <a href="#" style="margin: 10px 0 0; display: inline-block">[Ссылка для подтверждения регистрации]</a>
                   <p style="color: #000;
                     font-family: Montserrat, Inter, sans-serif;
                     font-size: 12px;
@@ -386,12 +403,14 @@
                     font-style: normal;
                     font-weight: 500;
                     padding-top: 15px;
+                    padding-bottom: 15px;
                     Margin: 0;
                     line-height: normal;">
                     Мы очень ценим ваше участие и ждем вас на нашем сайте и в приложении, где вы сможете наслаждаться всеми преимуществами нашей платформы.
                   </p>
                   <p style="color: #000;
                     font-family: Montserrat, Inter, sans-serif;
+                    display: inline;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 500;
@@ -399,8 +418,8 @@
                     Margin: 0;
                     line-height: normal;">
                     Если у вас возникли вопросы или требуется помощь, не стесняйтесь обращаться к нашей службе поддержки по адресу
-                    <a href="animics.ru" target="_blank" class="main__text-link">support@animics.ru</a>.
                   </p>
+                  <a href="mailto:support@animics.ru" target="_blank" class="main__text-link" style="display: inline;">support@animics.ru</a>
                 </td>
               </tr>
             </table>
